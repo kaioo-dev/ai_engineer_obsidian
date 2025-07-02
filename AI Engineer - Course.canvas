@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"802bceedd1a3df1b","type":"text","text":"AI Engineer vs ML Engineer","x":300,"y":280,"width":200,"height":60},
+		{"id":"57b08a951d6ba244","type":"text","text":"Common Terminology","x":240,"y":280,"width":320,"height":540},
+		{"id":"0aed501b7f5e1d0f","type":"text","text":"AI vs AGI","x":273,"y":355,"width":146,"height":50,"color":"2"},
+		{"id":"dd02e6731c8316e2","type":"text","text":"LLMs","x":423,"y":355,"width":100,"height":50,"color":"2"},
+		{"id":"9c099539f3ae6f86","type":"text","text":"Inference","x":274,"y":420,"width":250,"height":50,"color":"2"},
+		{"id":"086e64ceee0f05a8","type":"text","text":"Training","x":273,"y":482,"width":250,"height":50,"color":"2"},
+		{"id":"5d9a988693aa9a83","type":"text","text":"Embeddings","x":273,"y":550,"width":250,"height":50,"color":"2"},
+		{"id":"6bc3839e85b1f672","type":"text","text":"Vector Databases","x":273,"y":610,"width":250,"height":50,"color":"2"},
+		{"id":"3495333a80299ac2","type":"text","text":"RAG","x":419,"y":670,"width":100,"height":50,"color":"2"},
+		{"id":"24cc3c9c923fd8d2","type":"text","text":"AI Agents","x":269,"y":670,"width":146,"height":50,"color":"2"},
+		{"id":"e2da92a546195c3c","type":"text","text":"Prompt Engineering","x":269,"y":730,"width":250,"height":50,"color":"2"},
+		{"id":"d8675728a562f35e","type":"text","text":"AI Engineer vs ML Engineer","x":269,"y":216,"width":250,"height":60,"color":"2"},
+		{"id":"0e52b90e67a8bb02","type":"text","text":"Roles and Responsibilities","x":274,"y":0,"width":250,"height":60,"color":"2"},
+		{"id":"0f5acb5c3fc67d3c","type":"text","text":"[[Impact on Product Development]]","x":273,"y":-60,"width":250,"height":56,"color":"2"},
+		{"id":"85f904e410f5c1a8","type":"text","text":"Introductions","x":-240,"y":156,"width":250,"height":28,"color":"3"},
+		{"id":"c4a6658101495a43","type":"text","text":"","x":-665,"y":478,"width":250,"height":60},
+		{"id":"98a2856c56d12f1e","type":"text","text":"","x":-665,"y":550,"width":250,"height":60},
+		{"id":"57e08420bda33546","type":"text","text":"","x":-665,"y":630,"width":250,"height":60},
+		{"id":"a4ce8b883593b1d0","type":"text","text":"What is an AI Engineer?","x":273,"y":140,"width":250,"height":60,"color":"2"},
+		{"id":"26bcdccd651fcef5","type":"text","text":"Pre-trained Models","x":-240,"y":610,"width":250,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"83415d0b3e6e3fb3","fromNode":"85f904e410f5c1a8","fromSide":"right","toNode":"d8675728a562f35e","toSide":"left","color":"5"},
+		{"id":"9eb33da0009dcb3c","fromNode":"85f904e410f5c1a8","fromSide":"right","toNode":"a4ce8b883593b1d0","toSide":"left","color":"5"},
+		{"id":"c26ec8aa12889965","fromNode":"a4ce8b883593b1d0","fromSide":"top","toNode":"0e52b90e67a8bb02","toSide":"bottom","color":"5"},
+		{"id":"e4ee03a368514750","fromNode":"26bcdccd651fcef5","fromSide":"left","toNode":"c4a6658101495a43","toSide":"right"},
+		{"id":"e47475a59e948e90","fromNode":"26bcdccd651fcef5","fromSide":"left","toNode":"98a2856c56d12f1e","toSide":"right"},
+		{"id":"a638294f06bfdff0","fromNode":"26bcdccd651fcef5","fromSide":"left","toNode":"57e08420bda33546","toSide":"right"},
+		{"id":"5c832ed79e302404","fromNode":"85f904e410f5c1a8","fromSide":"bottom","toNode":"26bcdccd651fcef5","toSide":"top","color":"3","label":"Using Pre-trained Models"}
+	]
+}
