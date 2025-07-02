@@ -3,6 +3,7 @@
 		{"id":"a00e419b460c3455","type":"group","x":-800,"y":1080,"width":320,"height":500,"label":"Popular AI Models"},
 		{"id":"8887cc035eb7eae3","type":"group","x":253,"y":340,"width":291,"height":465,"label":"Common Terminology"},
 		{"id":"57dc2bbd9f13c9ce","type":"group","x":-800,"y":740,"width":320,"height":280,"label":"OpenAI Models"},
+		{"id":"15c4ff1323cfa120","type":"group","x":249,"y":1100,"width":250,"height":260,"label":"Managing Tokens"},
 		{"id":"0e52b90e67a8bb02","type":"text","text":"Roles and Responsibilities","x":255,"y":0,"width":291,"height":60,"color":"2"},
 		{"id":"85f904e410f5c1a8","type":"text","text":"Introductions","x":-240,"y":156,"width":250,"height":50,"color":"3"},
 		{"id":"26bcdccd651fcef5","type":"text","text":"Pre-trained Models","x":-240,"y":610,"width":250,"height":60,"color":"3"},
@@ -12,9 +13,6 @@
 		{"id":"bad62819b0f5ab95","type":"text","text":"OpenAI API","x":-240,"y":1020,"width":250,"height":60,"color":"3"},
 		{"id":"b5c343736fbd6884","type":"text","text":"Chat Completions API","x":249,"y":910,"width":250,"height":60,"color":"2"},
 		{"id":"50b229b9baaba8d6","type":"text","text":"Writing Prompts","x":249,"y":990,"width":250,"height":60,"color":"2"},
-		{"id":"2b56c0561a3398f0","type":"text","text":"Managing Tokens","x":249,"y":1070,"width":250,"height":60,"color":"2"},
-		{"id":"d030f4e9b669af47","type":"text","text":"","x":249,"y":1150,"width":250,"height":60,"color":"2"},
-		{"id":"8a787f5bcb491652","type":"text","text":"","x":249,"y":1230,"width":250,"height":60,"color":"5"},
 		{"id":"0aed501b7f5e1d0f","type":"text","text":"AI vs AGI","x":273,"y":360,"width":146,"height":50,"color":"2"},
 		{"id":"dd02e6731c8316e2","type":"text","text":"LLMs","x":423,"y":360,"width":100,"height":50,"color":"2"},
 		{"id":"9c099539f3ae6f86","type":"text","text":"Inference","x":273,"y":425,"width":250,"height":50,"color":"2"},
@@ -36,7 +34,13 @@
 		{"id":"8b2d5ba1b8e93cb3","type":"text","text":"AWS Sagemaker","x":-655,"y":1260,"width":160,"height":60,"color":"2"},
 		{"id":"40d17dc6750a37a8","type":"text","text":"Mistral AI","x":-780,"y":1420,"width":115,"height":60,"color":"2"},
 		{"id":"98769e184158b2cd","type":"text","text":"Cohere","x":-660,"y":1420,"width":160,"height":60,"color":"2"},
-		{"id":"332acd35d1b92135","type":"text","text":"Replicate","x":-775,"y":1500,"width":280,"height":60,"color":"2"}
+		{"id":"332acd35d1b92135","type":"text","text":"Replicate","x":-775,"y":1500,"width":280,"height":60,"color":"2"},
+		{"id":"f894852ed8a885f6","type":"text","text":"Maximum Tokens","x":261,"y":1120,"width":226,"height":60,"color":"2"},
+		{"id":"3f7f094004aceb26","type":"text","text":"Token Counting","x":261,"y":1200,"width":226,"height":60,"color":"2"},
+		{"id":"2171aef26367b267","type":"text","text":"Pricing Considerations","x":261,"y":1280,"width":226,"height":60,"color":"2"},
+		{"id":"d030f4e9b669af47","type":"text","text":"Open AI Playground","x":249,"y":1380,"width":250,"height":60,"color":"2"},
+		{"id":"8a787f5bcb491652","type":"text","text":"Fine-tuning","x":249,"y":1460,"width":250,"height":50,"color":"2"},
+		{"id":"421225d3ad023d7e","type":"text","text":"Prompt Engineering Roadmap","x":249,"y":1540,"width":250,"height":50,"color":"5"}
 	],
 	"edges":[
 		{"id":"83415d0b3e6e3fb3","fromNode":"85f904e410f5c1a8","fromSide":"right","toNode":"d8675728a562f35e","toSide":"left","color":"5"},
@@ -48,9 +52,10 @@
 		{"id":"b690c46d7cc58b71","fromNode":"26bcdccd651fcef5","fromSide":"bottom","toNode":"bad62819b0f5ab95","toSide":"top","label":"Open AI Platform"},
 		{"id":"ccceaa493c6e0cbe","fromNode":"bad62819b0f5ab95","fromSide":"right","toNode":"b5c343736fbd6884","toSide":"left","color":"5"},
 		{"id":"cba0c0e2b96611b6","fromNode":"bad62819b0f5ab95","fromSide":"right","toNode":"50b229b9baaba8d6","toSide":"left","color":"5"},
-		{"id":"bb754fa6533a28d0","fromNode":"bad62819b0f5ab95","fromSide":"right","toNode":"2b56c0561a3398f0","toSide":"left","color":"5"},
 		{"id":"ca546041f598f3e3","fromNode":"bad62819b0f5ab95","fromSide":"right","toNode":"d030f4e9b669af47","toSide":"left","color":"5"},
 		{"id":"dfd78afb5c0fbab4","fromNode":"bad62819b0f5ab95","fromSide":"right","toNode":"8a787f5bcb491652","toSide":"left","color":"5"},
-		{"id":"9050cab9e75db250","fromNode":"26bcdccd651fcef5","fromSide":"left","toNode":"57dc2bbd9f13c9ce","toSide":"right","color":"5"}
+		{"id":"9050cab9e75db250","fromNode":"26bcdccd651fcef5","fromSide":"left","toNode":"57dc2bbd9f13c9ce","toSide":"right","color":"5"},
+		{"id":"e11080fa22a6ee03","fromNode":"bad62819b0f5ab95","fromSide":"right","toNode":"15c4ff1323cfa120","toSide":"left","color":"5"},
+		{"id":"af11e2a134cd10d6","fromNode":"bad62819b0f5ab95","fromSide":"right","toNode":"421225d3ad023d7e","toSide":"left","color":"5"}
 	]
 }
