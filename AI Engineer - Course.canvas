@@ -13,7 +13,7 @@
 		{"id":"33831c542f7aca7e","x":-400,"y":6080,"width":659,"height":220,"type":"group","label":"Continue learning with following relevant tracks"},
 		{"id":"8887cc035eb7eae3","type":"group","x":253,"y":340,"width":291,"height":465,"label":"Common Terminology"},
 		{"id":"66979911372034c5","type":"group","x":319,"y":4480,"width":403,"height":280,"label":"Building AI Agents"},
-		{"id":"57dc2bbd9f13c9ce","type":"group","x":-800,"y":740,"width":320,"height":280,"label":"OpenAI Models"},
+		{"id":"57dc2bbd9f13c9ce","type":"group","x":-800,"y":740,"width":320,"height":280,"color":"2","label":"OpenAI Models"},
 		{"id":"15c4ff1323cfa120","type":"group","x":249,"y":1100,"width":295,"height":300,"label":"Managing Tokens"},
 		{"id":"fb8e1ea8eb7d1581","type":"group","x":260,"y":2700,"width":529,"height":164,"color":"5","label":"Ollama"},
 		{"id":"bf08468948ef6f15","type":"group","x":-1020,"y":4360,"width":420,"height":192,"label":"Implementing Vector Search"},
@@ -27,14 +27,14 @@
 		{"id":"dff90c03c25083f7","type":"text","text":"Open AI Models","x":-775,"y":770,"width":280,"height":60,"color":"2"},
 		{"id":"ad0900da153bbddb","type":"text","text":"Capabilities / Context Length","x":-775,"y":850,"width":280,"height":60,"color":"2"},
 		{"id":"2a6de4957690434e","type":"text","text":"Cut-off Dates / Knowledge","x":-775,"y":930,"width":280,"height":60,"color":"2"},
-		{"id":"98a2856c56d12f1e","type":"text","text":"Liminations and Considerations","x":-795,"y":610,"width":315,"height":60,"color":"2"},
+		{"id":"98a2856c56d12f1e","type":"text","text":"Limitations and Considerations","x":-795,"y":610,"width":315,"height":60,"color":"2"},
 		{"id":"c4a6658101495a43","type":"text","text":"Benefits of Pre-trained Models","x":-795,"y":530,"width":315,"height":60,"color":"2"},
 		{"id":"5d9a988693aa9a83","type":"text","text":"Embeddings","x":274,"y":545,"width":250,"height":50,"color":"2"},
 		{"id":"086e64ceee0f05a8","type":"text","text":"Training","x":273,"y":485,"width":250,"height":50,"color":"2"},
 		{"id":"9c099539f3ae6f86","type":"text","text":"Inference","x":273,"y":425,"width":250,"height":50,"color":"2"},
 		{"id":"0aed501b7f5e1d0f","type":"text","text":"AI vs AGI","x":273,"y":360,"width":146,"height":50,"color":"2"},
 		{"id":"dd02e6731c8316e2","type":"text","text":"LLMs","x":419,"y":360,"width":104,"height":50,"color":"2"},
-		{"id":"85f904e410f5c1a8","type":"text","text":"Introductions","x":-240,"y":156,"width":250,"height":50,"color":"5"},
+		{"id":"85f904e410f5c1a8","type":"text","text":"Introduction","x":-240,"y":156,"width":250,"height":50,"color":"5"},
 		{"id":"a4ce8b883593b1d0","type":"text","text":"What is an AI Engineer?","x":255,"y":123,"width":291,"height":66,"color":"2"},
 		{"id":"0e52b90e67a8bb02","type":"text","text":"Roles and Responsibilities","x":255,"y":0,"width":291,"height":60,"color":"2"},
 		{"id":"0f5acb5c3fc67d3c","type":"text","text":"Impact on Product Development","x":253,"y":-80,"width":293,"height":56,"color":"2"},
@@ -141,7 +141,7 @@
 	"edges":[
 		{"id":"83415d0b3e6e3fb3","fromNode":"85f904e410f5c1a8","fromSide":"right","toNode":"d8675728a562f35e","toSide":"left","toEnd":"none","color":"#496564"},
 		{"id":"9eb33da0009dcb3c","fromNode":"85f904e410f5c1a8","fromSide":"right","toNode":"a4ce8b883593b1d0","toSide":"left","toEnd":"none","color":"#496564"},
-		{"id":"c26ec8aa12889965","fromNode":"a4ce8b883593b1d0","fromSide":"top","toNode":"0e52b90e67a8bb02","toSide":"bottom","color":"5"},
+		{"id":"c26ec8aa12889965","fromNode":"a4ce8b883593b1d0","fromSide":"top","toNode":"0e52b90e67a8bb02","toSide":"bottom","toEnd":"none","color":"#476160"},
 		{"id":"e4ee03a368514750","fromNode":"26bcdccd651fcef5","fromSide":"left","toNode":"c4a6658101495a43","toSide":"right","toEnd":"none","color":"#496564"},
 		{"id":"e47475a59e948e90","fromNode":"26bcdccd651fcef5","fromSide":"left","toNode":"98a2856c56d12f1e","toSide":"right","toEnd":"none","color":"#496564"},
 		{"id":"5c832ed79e302404","fromNode":"85f904e410f5c1a8","fromSide":"bottom","toNode":"26bcdccd651fcef5","toSide":"top","color":"5","label":"Using Pre-trained Models"},
@@ -176,6 +176,6 @@
 		{"id":"597c6ad3ebdb6ac5","fromNode":"a6adcaa7dd047318","fromSide":"left","toNode":"d67484a0b497aa43","toSide":"right","toEnd":"none","color":"#476160"},
 		{"id":"d8928d8ca8d6dd20","fromNode":"a6adcaa7dd047318","fromSide":"bottom","toNode":"dafd1773dba76cd0","toSide":"top","color":"5"},
 		{"id":"0ba7b296da3c4e8e","fromNode":"dafd1773dba76cd0","fromSide":"right","toNode":"919e1d7e09d14d32","toSide":"left","toEnd":"none","color":"#476160"},
-		{"id":"701ff7ae54fb00f8","fromNode":"dafd1773dba76cd0","fromSide":"bottom","toNode":"33831c542f7aca7e","toSide":"top"}
+		{"id":"701ff7ae54fb00f8","fromNode":"dafd1773dba76cd0","fromSide":"bottom","toNode":"33831c542f7aca7e","toSide":"top","color":"5"}
 	]
 }
