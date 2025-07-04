@@ -37,7 +37,7 @@
 		{"id":"85f904e410f5c1a8","type":"text","text":"Introduction","x":-240,"y":156,"width":250,"height":50,"color":"5"},
 		{"id":"a4ce8b883593b1d0","type":"text","text":"What is an AI Engineer?","x":255,"y":123,"width":291,"height":66,"color":"2"},
 		{"id":"0e52b90e67a8bb02","type":"text","text":"Roles and Responsibilities","x":255,"y":0,"width":291,"height":60,"color":"2"},
-		{"id":"0f5acb5c3fc67d3c","type":"text","text":"Impact on Product Development","x":253,"y":-80,"width":293,"height":56,"color":"2"},
+		{"id":"0f5acb5c3fc67d3c","type":"text","text":"[[Impact on Product Development]]","x":253,"y":-80,"width":293,"height":56,"color":"2"},
 		{"id":"d8675728a562f35e","type":"text","text":"AI Engineer vs ML Engineer","x":255,"y":220,"width":291,"height":60,"color":"2"},
 		{"id":"a83fb3244ebdefae","type":"text","text":"OpenSource AI","x":-232,"y":2034,"width":250,"height":60,"color":"5"},
 		{"id":"0e78a0e45fb67467","type":"text","text":"Open vs Closed Source Models","x":251,"y":1960,"width":295,"height":50,"color":"2"},
